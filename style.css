@@ -5,8 +5,7 @@
 
 
 body{
-    background: rgb(135,207,247);
-    background: radial-gradient(circle, rgba(135,207,247,1) 0%, rgba(30,8,236,1) 100%);
+    overflow-x: hidden;
     width: 100vw;
     height: 100vh;
 }
@@ -17,7 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 
+    height: 6vw
 }
 
 .list-container {
@@ -26,11 +25,26 @@ body{
     list-style: none ;
 }
 
-a{
+.abc{
     color: blue;
     text-decoration: none;
     font-size: 1.25rem;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
+    font-weight: 700;   
+    transition:1.5s;
     
+}
+.abc:hover{
+    color: burlywood;
+    font-size: 30px;
+}
+
+#section1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.hdqwalls.com/wallpapers/abstract-gradient-swirl-4k-h6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
