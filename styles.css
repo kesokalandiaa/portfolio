@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.header {
+    position:fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(208, 226, 219, 0.5) 0%, rgb(99, 91, 91, 0.5) 50%, rgb(57, 59, 57, 0.5) 100%);
+}
+
+.logo {
+    margin-left: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-bar {
+    margin-right: 50px;
+}
+
+.list-container {
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+}
+
+.list {
+    display: flex;
+}
+
+.element {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    transition: 0.3s;
+}
+
+.element:hover {
+    transform: scale(1.25);
+    color: #FFF;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5 {
+    width: 100vw;
+    height: 100vh;
+}
+
+#section1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(58528525825.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome {
+    color: rgb(150, 166, 255);
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.anano {
+    font-size: 4rem;
+}
+
+.ana {
+    font-size: 3rem;
+}
+
+.ano {
+    font-size: 4.5rem;
+}
