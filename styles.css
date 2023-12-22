@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -13,11 +14,11 @@ body {
     width: 100vw;
     overflow-x: hidden;
     background-color: #000;
-    
+
 }
 
 .header {
-    position:fixed;
+    position: fixed;
     width: 100vw;
     height: 10vh;
     display: flex;
@@ -72,7 +73,7 @@ body {
 #section1 {
     width: 100vw;
     height: 100vh;
-    background-color:black;
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,21 +88,23 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position:relative;
+    position: relative;
 
 
 }
-.welcome1 img{
-position:absolute;
-transform: translate(-80%,-20%);
+
+.welcome1 img {
+    position: absolute;
+    transform: translate(-80%, -20%);
 
 }
 
 #n {
-    position:absolute;
-    transform: translate(90%,5%); 
+    position: absolute;
+    transform: translate(90%, 5%);
     width: 50%;
 }
+
 .welcome {
     color: rgb(150, 166, 255);
     font-size: 2.5rem;
@@ -118,46 +121,54 @@ transform: translate(-80%,-20%);
     font-size: 3rem;
 }
 
-.pear{
+.pear {
     font-size: 4.5rem;
 }
+
 .section-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
 
 }
-.container{
+
+.container {
     width: 50%;
     height: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.contactcontainer form{
+
+.contactcontainer form {
     width: 50%;
     height: 100%;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
-.input{
-    width:100%;
+
+.input {
+    width: 100%;
     padding: 10px;
     background-color: transparent;
     border: 2px solid white;
     border-radius: 20px;
+    color: #96a6ff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
 
 }
 
-.submit{
+.submit {
     color: white;
     transition: 0.5s;
 
 }
-.submit:hover{
-    background-color:#644686ff ;
+
+.submit:hover {
+    background-color: #644686ff;
     color: black;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>portfolio</title>
 </head>
 
 <body>
@@ -38,15 +38,16 @@
         <div class="section-wrapper">
             <div class="container textcontainer"></div>
             <div class="container contactcontainer">
-                <form action="">
-                    <input class="input" type="text"  placeholder="Name">
-                    <input class="input" type="email" placeholder="Email">
-                    <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                    <input class="input submit" type="submit">
+                <form name="submit-to-google-sheet">
+                    <input class="input" type="text"  placeholder="Name" name="Name" id="name-field" required>
+                    <input class="input" type="email" placeholder="Email" name="Email" id="email-field" required>
+                    <textarea class="input" name="Message" id="message-field" cols="30" rows="10"  placeholder="Message" required></textarea>
+                    <button  id="submit-button" class="input submit" type="submit">Send</button>
                 </form>
             </div>
         </div>
     </section>
+    <script src="contact.js"></script>
 </body>
 
 </html>
