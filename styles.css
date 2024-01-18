@@ -25,6 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(90deg, rgb(57, 59, 57, 0.5) 0%, rgb(99, 91, 91, 0.5) 50%, rgb(208, 226, 219, 0.5) 100%);
+    z-index: 999999999999;
 }
 
 .logo {
@@ -142,12 +143,14 @@ body {
 
 .contactcontainer form {
     width: 50%;
-    height: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
+    border:2px solid white ;
+    padding: 70px;
 }
 
 .input {
@@ -169,6 +172,79 @@ body {
 }
 
 .submit:hover {
-    background-color: #644686ff;
+    background-color:  #f4bbce;
     color: black;
+}
+
+.fa-brands {
+    font-size: 6rem;
+
+}
+
+.textcontainer { 
+    position: relative;
+
+}
+
+.purplebutter1 {
+    position: absolute;
+    height: 100%;
+    transform: translateX(-60%) rotate(1deg);
+    z-index: -1;
+}
+
+.purplebutter2 { 
+    position: absolute;
+    height: 110%;
+    transform: rotate(90deg) translate(70%, 0.7%) scaleX(-1);
+    z-index: -1;
+
+}
+
+.purplebutter3 {
+    position: absolute;
+    height: 100%;
+    transform: translateX(60%) rotate(1deg) scaleX(-1);
+    z-index: -1;
+
+}
+
+.purplebutter4 {
+    position: absolute;
+    height: 100%;
+    transform: translate(40px, -30%) rotate(90deg);
+    z-index: -1;
+
+}
+
+.section4-wrapper {
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    width: 250px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.text1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2 {
+    color: #96a6ff;
+    align-items: center;
+    max-width: 50%;
+    max-height: 90%;
 }
