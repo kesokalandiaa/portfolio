@@ -142,6 +142,7 @@ body {
 }
 
 .contactcontainer form {
+    position: relative;
     width: 50%;
     height: 50%;
     display: flex;
@@ -150,7 +151,7 @@ body {
     align-items: center;
     gap: 5px;
     border:2px solid white ;
-    padding: 70px;
+    padding: 10%;
 }
 
 .input {
@@ -159,7 +160,7 @@ body {
     background-color: transparent;
     border: 2px solid white;
     border-radius: 20px;
-    color: #96a6ff;
+    color: #f4bbce;
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
 
@@ -183,11 +184,15 @@ body {
 
 .textcontainer { 
     position: relative;
+    top: -5%;
+    left: 1%;
+
 
 }
 
 .purplebutter1 {
     position: absolute;
+    left: 0;
     height: 100%;
     transform: translateX(-60%) rotate(1deg);
     z-index: -1;
@@ -195,24 +200,29 @@ body {
 
 .purplebutter2 { 
     position: absolute;
-    height: 110%;
-    transform: rotate(90deg) translate(70%, 0.7%) scaleX(-1);
+    top: -55%;
+    left: 40%;
+    height: 100%;
+    transform: rotate(90deg) scaleX(1);
     z-index: -1;
 
-}
+} 
 
 .purplebutter3 {
     position: absolute;
+    bottom: 0;
+    right: 0;
     height: 100%;
-    transform: translateX(60%) rotate(1deg) scaleX(-1);
+    transform: translateX(50%) scaleY(-1);
     z-index: -1;
 
 }
 
 .purplebutter4 {
     position: absolute;
+    top: 50%;
     height: 100%;
-    transform: translate(40px, -30%) rotate(90deg);
+    transform: rotate(90deg) scaleX(-1) scaleY(-1);
     z-index: -1;
 
 }
@@ -244,7 +254,22 @@ body {
 
 .text2 {
     color: #96a6ff;
-    align-items: center;
+    text-align: center;
     max-width: 50%;
     max-height: 90%;
+    font-size: 1.5rem;
 }
+
+.contact-me {
+    color: #f4bbce;
+    font-family: 'Sevillana', cursive;
+    font-size: 5rem;
+    font-size: clamp(150px, 8vw, 5rem) ;
+    position: absolute;
+    transform: translateX(-500%,) rotate(1deg);
+    top: 81%;
+    left: -147%;
+
+
+}
+
